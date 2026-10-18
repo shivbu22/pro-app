@@ -1,0 +1,17 @@
+{
+  "name": "@omnicut/ai-director",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@omnicut/shared-types": "workspace:*",
+    "@omnicut/timeline-engine": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

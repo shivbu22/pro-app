@@ -1,0 +1,16 @@
+{
+  "name": "omnicut-pro-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OmniCut Pro: Premiere Pro-grade AI Video Editor with Conversational Director and Remotion",
+  "scripts": {
+    "dev": "pnpm --filter @omnicut/web dev",
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "type-check": "pnpm -r run type-check"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
